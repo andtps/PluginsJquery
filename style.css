@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #001d3d;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    height: 60px;
+    margin:auto 0;
+    background-color: white;
+}
+
+.formulario{
+    width: 470px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #003566;
+    border-radius: 15px;
+}
+
+.formulario, input, label{
+    display: block;
+    color: white;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.RuaNumero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.number{
+    margin-right: 20px;
+}
+
+button{
+    display: block;
+    width: 282px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: #89c2d9;
+
+}
